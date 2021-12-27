@@ -16,7 +16,6 @@ import NotFound from "./pages/NotFound";
 import { CSSTransition } from "react-transition-group";
 import Loading from "./components/Loading";
 
-require("dotenv").config();
 const CreatePost = lazy(() => import("./pages/CreatePost"));
 const SinglePost = lazy(() => import("./pages/SinglePost"));
 const Search = lazy(() => import("./components/Search"));

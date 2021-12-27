@@ -5,8 +5,6 @@ import { motion } from "framer-motion";
 import io from "socket.io-client";
 import { Link } from "react-router-dom";
 
-require("dotenv").config();
-
 function Chat() {
   const socket = useRef(null);
   const chatField = useRef(null);
